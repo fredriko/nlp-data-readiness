@@ -6,5 +6,6 @@ Data Readiness
 
     introduction
     data-readiness-levels
+    questions-for-guidance
     project-phases
     case-studies
