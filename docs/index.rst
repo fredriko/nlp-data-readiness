@@ -1,10 +1,10 @@
-Datamognad
-----------
+Data Readiness
+--------------
 
 .. toctree::
     :maxdepth: 16
 
-    introduktion
-    datamognadsgrader
-    projektfaser
-    fallstudier
+    introduction
+    data-readiness-levels
+    project-phases
+    case-studies
