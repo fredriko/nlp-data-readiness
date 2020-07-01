@@ -7,4 +7,4 @@ source_parsers = {
 source_suffix = ['.rst', '.md']
 
 master_doc = 'index'
-project = u'data-readiness'
+project = u'nlp-data-readiness'
