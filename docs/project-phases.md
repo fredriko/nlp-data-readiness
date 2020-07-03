@@ -22,3 +22,4 @@ Baby steps and iteration are key!
 * [Cross-industry standard process for data mining (CRISP-DM)](https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining)
 * [Team Data Science Process (TDSP)](https://docs.microsoft.com/en-us/azure/machine-learning/team-data-science-process/lifecycle) by Microsoft.
 * [5i Framework](https://medium.com/quantumblack/the-protocol-series-articulating-the-lifecycle-of-an-analytics-use-case-with-the-5i-framework-9959b0306eee) by QuantumBlack.
+* [Data Science Project Management](http://www.datascience-pm.com/)

@@ -9,3 +9,4 @@ NLP Data Readiness
     project-phases
     questions-for-guidance
     case-studies
+    contribute

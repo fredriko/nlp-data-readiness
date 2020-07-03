@@ -73,5 +73,12 @@ then you need to obtain annotated data.
  
  ## Resources
  
+ ### General
+ 
  * [Data Readiness Levels](https://arxiv.org/abs/1705.02245)
  * [Building Machine Learning Powered Applications: Going from Idea to Product](https://mlpowered.com/book/)
+ 
+ 
+ ### Conversion of PDF to text
+ 
+ * List methods and means to convert PDF to structured text here.
