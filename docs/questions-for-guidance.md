@@ -37,6 +37,10 @@ an NLP project setting, it has to be...
 * accessible
 * validated
 
+## Are you allowed to use the data available?
+
+Legal issues. GDPR etc.
+
 ## What data do you need to solve the problem?
 
 Given the insight into what data is available, ask yourself the questions: 
@@ -82,3 +86,9 @@ then you need to obtain annotated data.
  ### Conversion of PDF to text
  
  * List methods and means to convert PDF to structured text here.
+ 
+ ### Annotating data
+ 
+ #### On-premise resources
+ 
+ #### SaaS/Cloud-based resources
