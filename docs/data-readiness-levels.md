@@ -21,10 +21,10 @@ documents from a source format, e.g., PDF, Word or Excel, to a format suitable f
 In order to move beyond Band C, data conversion and encoding have to be in place, and the resulting data should be
 possible to work with in the analysis software of choice, such as Python, R or Matlab. 
 
-* **Band B** concerns the **validity** of data. In order to pass Band B, the data has to be valid.
+* **Band B** concerns the **validity** of data. In order to pass Band B, the data has to be valid. ...
 
 * **Band A** concerns the **utility** of data. The utility of the data concerns the way in which the data is intended to be
-used. 
+used. ...
 
 Note that the Data Readiness Levels should be interpreted with respect to a given task: data that is at Band A 
 for the task of, e.g., training a large Transformer network, might be considered Band B if the task instead concerns the
