@@ -15,7 +15,7 @@ not matter what kind of algorithms are available.
 
 ![Data Readiness Levels table](img/drl-table.png)
 
-* **Band C** concerns the **accessibility** of data. All work this level all serves to grant the team 
+* **Band C** concerns the **accessibility** of data. All work at this level all serves to grant the team 
 intended to work with the data access to it. One of the major challenges faced within NLP is the conversion of
 documents from a source format, e.g., PDF, Word or Excel, to a format suitable for addressing the task at hand. 
 In order to move beyond Band C, data conversion and encoding have to be in place, and the resulting data should be
