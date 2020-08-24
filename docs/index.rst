@@ -8,5 +8,4 @@ NLP Data Readiness
     data-readiness-levels
     project-phases
     questions-for-guidance
-    case-studies
     contribute

@@ -39,7 +39,9 @@ an NLP project setting, it has to be...
 
 ## Are you allowed to use the data available?
 
-Legal issues. GDPR etc.
+Make sure you involve the appropriate legal competence early on in your project. Matters regarding, e.g., 
+personal identifiable information, and GDRP have to be handled correctly. Failing to do so may result in a project
+failure, even though all technical aspects of the project is perfectly sound.
 
 ## What data do you need to solve the problem?
 
@@ -76,19 +78,13 @@ then you need to obtain annotated data.
  implementing a solution. Compare: annotations at the document level will not help when building an event detector.
  
  ## Resources
- 
- ### General
- 
+
+### General
+  
  * [Data Readiness Levels](https://arxiv.org/abs/1705.02245)
  * [Building Machine Learning Powered Applications: Going from Idea to Product](https://mlpowered.com/book/)
  
  
- ### Conversion of PDF to text
- 
- * List methods and means to convert PDF to structured text here.
- 
- ### Annotating data
- 
- #### On-premise resources
- 
- #### SaaS/Cloud-based resources
+ ### Text annotating tools
+
+
