@@ -85,6 +85,6 @@ then you need to obtain annotated data.
  * [Building Machine Learning Powered Applications: Going from Idea to Product](https://mlpowered.com/book/)
  
  
- ### Text annotating tools
+ ### Text annotation tools
 
 
