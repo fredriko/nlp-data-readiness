@@ -1,6 +1,8 @@
 NLP Data Readiness
 ------------------
 
+A guide to Data Readiness in Natural Language Processing projects.
+
 .. toctree::
     :maxdepth: 16
 
