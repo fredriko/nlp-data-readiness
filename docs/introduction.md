@@ -5,10 +5,17 @@ that lend themselves to solutions based on natural language processing (NLP). Th
 and highlight issues related to data access, accessibility, and validity that may arise in such situations.
 
 
-
 ## Limitations
 
 This document is concerned with data availability, accessibility, and validity for the purpose of natural language
 processing. Thus, other modalities such as images, video, speech or sensor data are not covered. 
 
 ## How to use this document
+
+The intention is for the NLP data readiness document to provide insights into the type of challenges one might 
+encounter, with respect to data, when embarking on a project involving natural language processing. The document is focused
+on asking the right questions rather than providing an explicit guide that covers all possible challenges in a project: 
+such a guiding will inevitably vary with the specific task at hand. 
+
+Thus, the central part of the NLP data readiness document are the questions available the 
+section [Questions for guidance](questions-for-guidance.md).
