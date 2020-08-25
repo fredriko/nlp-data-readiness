@@ -29,19 +29,22 @@ technological approach to solve the problem.
 
 What does "available to you" mean? There is a difference between knowing that there is data to be had, and actually having
 the appropriate access to the right data at the right time. The Data Readiness Levels framework provides a good 
-way of talking to stakeholders, both data owners and business problem owners. For data to be useful in 
-an NLP project setting, it has to be... 
+way of talking to stakeholders, both data owners and business problem owners. Being "available" in this context, means
+that the data is at Band B or above, as discussed [here](data-readiness-levels.md).
 
-* available in the sense that it is exists on a digital medium somewhere, such as in a data lake or a database.
- (Band C, in Data Readiness Level parlor),
-* accessible
-* validated
+With data at Band B, you will most likely be able to form working hypotheses about the suitability of the data with
+respect to the problem you are trying to solve. For example to gauge whether the data contains the information you need;
+the amount of data is sufficient; or there are any legal constraints for using the data.
+
 
 ## Are you allowed to use the data available?
 
-Make sure you involve the appropriate legal competence early on in your project. Matters regarding, e.g., 
-personal identifiable information, and GDRP have to be handled correctly. Failing to do so may result in a project
-failure, even though all technical aspects of the project is perfectly sound.
+The legal aspects of using the data depends on many things. As such, the legalities should be considered a primary citizen
+of the Data Readiness Level assessment with respect to your particular challenge. Make sure you involve the appropriate 
+legal competence early on in your project. Matters regarding, e.g., personal identifiable information, and 
+GDRP have to be handled correctly. Failing to do so may result in a project failure, even though all technical aspects 
+of the project is perfectly sound.
+
 
 ## What data do you need to solve the problem?
 
@@ -59,32 +62,42 @@ need than what has been specified so far?
 
 ## How do you know if you have succeeded in solving the problem?
 
-Test data set and validation data set. Possibly evolving over time, in accordance with the overall system, including
-annotation, training, monitoring for domain drift and decrease in system performance.  
+When you are in the process of defining and specifying the problem to solve, you should also consider how to evaluate
+the potential solutions to the problem. 
 
-## Do you need annotated data?
+The type of data required to evaluate a solution is often tightly connected to
+the way the solution is implemented: if the solution is based on supervised machine learning, i.e., requiring labelled examples, 
+then the evaluation of the solution will also require labelled data. For example,
+if the problem you are faced with is to help users to find topically relevant sections in a large number of yearly reports
+submitted by public agencies, then you will most likely need to construct a collection of sections labelled with the 
+appropriate topic descriptors. Such data can then be used to assess and compare the technical solutions to the problem 
+that you come up with. 
 
-If the solution to the problem involves supervised learning, or assessment of performance based on human labelled data,
-then you need to obtain annotated data. 
+On the other hand, if it is possible to produce a
+solution based on unsupervised machine learning, then *perhaps* it is possible to conduct the evaluation based on 
+unlabelled data too (although it is far from certain).
+
+In any case, if the solution depends on labelled training data, the process of annotation usually also results in the 
+appropriate evaluation data.
+
+Any annotation effort should take into account:
+
+* **The agreement between human annotators**, i.e., the inter-annotator agreement. For example, if the inter-annotator agreement
+is low, that is, the human annotators do not agree in the general case, it can be due to, e.g., unclear annotation guidelines,
+difference in expertise among the annotators, that the task is simply too hard, or a combination of all of the above.
+* **Temporal aspects of the characteristics of the data**. How often do the distribution of the data to learn from change, i.e.,
+how often do we need to produce new annotations? When do we know that we need newly annotated data?
+* **Representativity of the data**.
+
+Obtaining the training, evaluation, and validation data is at the core of producing a machine learning-based solution to
+a problem. The quality of the data sets the upper bound to what can be achieved by the learned functionality. Also included
+in the production process are issues such as model selection, setting up infrastructure for machine learning, continuously
+monitoring the solution's performance for decrease in performance, etc. A good overview of the end-to-end process is the 
+book [Building Machine Learning Powered Applications: Going from Idea to Product](https://mlpowered.com/book/).
 
 
-  - Availability of experts
-  - Tooling
-  - Quality control
- 
- Proxy tasks and available data?
- 
- The annotation of the data must be at the same level of abstraction as is operated on by the technology for 
- implementing a solution. Compare: annotations at the document level will not help when building an event detector.
- 
- ## Resources
 
-### General
-  
- * [Data Readiness Levels](https://arxiv.org/abs/1705.02245)
- * [Building Machine Learning Powered Applications: Going from Idea to Product](https://mlpowered.com/book/)
  
- 
- ### Text annotation tools
+
 
 
