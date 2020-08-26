@@ -82,12 +82,17 @@ appropriate evaluation data.
 
 Any annotation effort should take into account:
 
-* **The agreement between human annotators**, i.e., the inter-annotator agreement. For example, if the inter-annotator agreement
-is low, that is, the human annotators do not agree in the general case, it can be due to, e.g., unclear annotation guidelines,
-difference in expertise among the annotators, that the task is simply too hard, or a combination of all of the above.
+* **The quality of the annotations**. The agreement between the annotators working on the data, i.e., the inter-annotator
+ agreement provides a good starting point for assessing the quality of the annotations overall. For example, the reasons 
+ for low inter-annotator agreement, i.e., the human annotators do not agree in the general case, can be due to for instance, 
+ unclear annotation guidelines, difference in expertise among the annotators, that the task is simply too hard, or a 
+ combination of all of the above. The annotations produced should be carefully monitored with respect their quality, 
+ and deviations in quality of time should be analyzed so as to mitigate a future decrease in the capabilities of the
+  model that relies on the annotated data for training. 
 * **Temporal aspects of the characteristics of the data**. How often do the distribution of the data to learn from change, i.e.,
 how often do we need to produce new annotations? When do we know that we need newly annotated data?
-* **Representativity of the data**.
+* **Representativity of the data**. Is the data annotated really suitable for the task at hand? Does it reflect the way
+users interact with the system?
 
 Obtaining the training, evaluation, and validation data is at the core of producing a machine learning-based solution to
 a problem. The quality of the data sets the upper bound to what can be achieved by the learned functionality. Also included
