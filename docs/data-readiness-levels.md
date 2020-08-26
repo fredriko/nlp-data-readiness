@@ -40,11 +40,3 @@ for the task of, e.g., training a large Transformer network, might be considered
  evaluation of an existing event resolution system, simply because the requirements on the data are different in the 
  two tasks. In the first task, it is enough if the data is clean and representative of the domain, while in the second
  task it has to be annotated with the appropriate event information. 
-
-
-
-
-## Resources
-
-* [Data Readiness](http://data-readiness.org/)
-* [FAIR](https://www.go-fair.org/fair-principles/)

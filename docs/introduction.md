@@ -20,4 +20,5 @@ such a guiding will inevitably vary with the specific task at hand.
 * [Data Readiness Levels](data-readiness-levels.md) introduces the notion of data readiness.
 * [Project phases](project-phases.md) outlines the typical structure of a research or innovation project, and puts data readiness into context within that structure. 
 * [Questions for guidance](questions-for-guidance.md) is the central part of the *NLP data readiness* document. Use the questions to understand the data readiness of your own project.
+* [Resources](resources.md) is a collection of links to resources related to this document.
 * [How to contribute](contribute.md) contains instructions for how to help us improve the document. Please, reach out with any questions, or suggestions! 
