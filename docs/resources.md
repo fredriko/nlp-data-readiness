@@ -1,5 +1,7 @@
 # Resources
 
+Below are a number of resources related to data readiness and NLP.
+
 ## Data readiness
 
 * [Data Readiness](http://data-readiness.org/)
@@ -7,7 +9,7 @@
 * [FAIR](https://www.go-fair.org/fair-principles/), guidelines to improve the Findability, Accessibility, Interoperability, and Reuse of digital assest (data).
 
 
-## Resources
+## Project processes and structure
 
 Here are links to some common data science/analytics project processes.
 
