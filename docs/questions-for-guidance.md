@@ -42,7 +42,7 @@ the amount of data is sufficient; or there are any legal constraints for using t
 The legal aspects of using the data depend on many things. As such, the legalities should be considered a primary citizen
 of the Data Readiness Level assessment with respect to your particular challenge. Make sure you involve the appropriate 
 legal competence early on in your project. Matters regarding, e.g., personal identifiable information, and 
-GDRP have to be handled correctly. Failing to do so may result in a project failure, even though all technical aspects 
+GDPR have to be handled correctly. Failing to do so may result in a project failure, even though all technical aspects 
 of the project are perfectly sound.
 
 
@@ -68,10 +68,9 @@ the potential solutions to the problem.
 The type of data required to evaluate a solution is often tightly connected to
 the way the solution is implemented: if the solution is based on supervised machine learning, i.e., requiring labelled examples, 
 then the evaluation of the solution will also require labelled data. For example,
-if the problem you are faced with is to help users to find topically relevant sections in a large number of yearly reports
+if the problem you face is to help users to find topically relevant sections in a large number of yearly reports
 submitted by public agencies, then you will most likely need to construct a collection of sections labelled with the 
-appropriate topic descriptors. Such data can then be used to assess and compare the technical solutions to the problem 
-that you come up with. 
+appropriate topic descriptors. Such data can then be used to assess and compare the technical solutions you come up with. 
 
 On the other hand, if it is possible to produce a
 solution based on unsupervised machine learning, then *perhaps* it is possible to conduct the evaluation based on 
@@ -87,9 +86,9 @@ Any annotation effort should take into account:
  for low inter-annotator agreement can be related to, e.g., 
  unclear annotation guidelines, difference in expertise among the annotators, that the task is simply too hard, or a 
  combination of all of the above. The annotations produced should be carefully monitored with respect their quality. 
- Deviations in quality over time should be analyzed so as to facilitate mitigatation of a potential decrease in the capabilities of the
+ Deviations in quality over time should be analyzed so as to facilitate mitigation of a potential decrease in the capabilities of the
   model that relies on the annotated data for training. 
-* **Temporal aspects of the characteristics of the data**. How often do the distribution of the data to learn from change, i.e.,
+* **Temporal aspects of the data characteristics**. How often do the distribution of the data to learn from change, i.e.,
 how often do we need to produce new annotations? When do we know that we need newly annotated data?
 * **Representativity of the data**. Is the data annotated really suitable for the task at hand? Does it reflect the way
 users interact with the system?
@@ -97,7 +96,7 @@ users interact with the system?
 Obtaining the training, evaluation, and validation data is at the core of producing a machine learning-based solution to
 a problem. The quality of the data sets the upper bound to what can be achieved by the learned functionality. Also included
 in the production process are issues such as model selection, setting up infrastructure for machine learning, continuously
-monitoring the solution's performance for decrease in performance, etc. A good overview of the end-to-end process is the 
+monitoring the solution's performance for decrease in performance, etc. A good overview of the end-to-end process is presented in the 
 book [Building Machine Learning Powered Applications: Going from Idea to Product](https://mlpowered.com/book/).
 
 
