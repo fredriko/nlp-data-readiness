@@ -1,18 +1,18 @@
 # Project structure and management
 
-To put the need for training, validation, and evaluation data into context, let's have a look the structure of a
+To put the need for training, validation, and evaluation data into context, let's have a look at the structure of a
 typical NLP project.
 
-There are many variants of the way organizations work with applied research and analytics, most of them follow roughly
+There are many variants of the way organizations work with applied research and analytics. Most of them follow roughly
 the following steps:
 
-1. Specify the problem to solve. 
+1. Specify the problem to solve.
 1. Assess the data available to produce and evaluate solutions to the problem.
 1. Implement a solution on the form of a demonstrator, prototype or product.
-1. Mutual transfer of knowledge between the research team to the client.
+1. Mutual transfer of knowledge between the research team and the client.
 
 The above steps are usually carried out in an iterative fashion in that, e.g., the problem specification is re-visited 
-and updated based as the knowledge of the data available is increased, the transfer of knowledge is omnipresent in all
+and updated as the knowledge of the data available is increased, the transfer of knowledge is omnipresent in all
 stages of the project, and the implementation is iteratively updated and tested as the project progresses.
 
 Although the Data Readiness Levels described in the previous section permeates all stages of the project management, steps
