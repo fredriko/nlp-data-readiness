@@ -1,6 +1,6 @@
 # Project structure and management
 
-To put the need for training, validation, and evaluation data into context, let's first have a look the structure of a
+To put the need for training, validation, and evaluation data into context, let's have a look the structure of a
 typical NLP project.
 
 There are many variants of the way organizations work with applied research and analytics, most of them follow roughly
