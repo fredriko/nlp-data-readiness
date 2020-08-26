@@ -6,7 +6,7 @@ Below are a number of resources related to data readiness and NLP.
 
 * [Data Readiness](http://data-readiness.org/)
 * [Data Readiness Levels](https://arxiv.org/abs/1705.02245), white paper by Neil Lawrence (2017)
-* [FAIR](https://www.go-fair.org/fair-principles/), guidelines to improve the Findability, Accessibility, Interoperability, and Reuse of digital assest (data).
+* [FAIR](https://www.go-fair.org/fair-principles/), guidelines to improve the Findability, Accessibility, Interoperability, and Reuse of digital assets.
 
 
 ## Project processes and structure

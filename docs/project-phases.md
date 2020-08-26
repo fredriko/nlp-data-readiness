@@ -6,17 +6,18 @@ typical NLP project.
 There are many variants of the way organizations work with applied research and analytics, most of them follow roughly
 the following steps:
 
-1. specify the problem to solve, 
-1. assess the data available to produce and evaluate solutions to the problem,
-1. implement a solution on the form of a demonstrator, prototype or product,
-1. mutual transfer of knowledge between the research team to the client.
+1. Specify the problem to solve. 
+1. Assess the data available to produce and evaluate solutions to the problem.
+1. Implement a solution on the form of a demonstrator, prototype or product.
+1. Mutual transfer of knowledge between the research team to the client.
 
 The above steps are usually carried out in an iterative fashion in that, e.g., the problem specification is re-visited 
 and updated based as the knowledge of the data available is increased, the transfer of knowledge is omnipresent in all
 stages of the project, and the implementation is iteratively updated and tested as the project progresses.
 
 Although the Data Readiness Levels described in the previous section permeates all stages of the project management, steps
-1 and 2 in the project structure above are where the data readiness is usually addressed in depth. 
+1 and 2 in the project structure above are where the data readiness is usually addressed in depth. Thus, it is crucial
+that the Data Readiness Levels are in order at the beginning of the project.
 
 
 Common data science, and analytics project processes include 

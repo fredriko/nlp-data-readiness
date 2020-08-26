@@ -1,7 +1,7 @@
 # Questions for guidance
 
-The questions below are intended to serve as guidance in the process of attaining the appropriate data for solving
-a business problem.
+The questions below are intended to serve as guidance in the process of attaining the appropriate Data Readiness Levels for solving
+a research or business problem related to NLP.
 
 ## What problem are you trying to solve?
 
@@ -39,11 +39,11 @@ the amount of data is sufficient; or there are any legal constraints for using t
 
 ## Are you allowed to use the data available?
 
-The legal aspects of using the data depends on many things. As such, the legalities should be considered a primary citizen
+The legal aspects of using the data depend on many things. As such, the legalities should be considered a primary citizen
 of the Data Readiness Level assessment with respect to your particular challenge. Make sure you involve the appropriate 
 legal competence early on in your project. Matters regarding, e.g., personal identifiable information, and 
 GDRP have to be handled correctly. Failing to do so may result in a project failure, even though all technical aspects 
-of the project is perfectly sound.
+of the project are perfectly sound.
 
 
 ## What data do you need to solve the problem?
@@ -51,13 +51,13 @@ of the project is perfectly sound.
 Given the insight into what data is available, ask yourself the questions: 
 
 * What data do you need to solve the problem?
-* Is that a subset of the data is available to you?
+* Is that a subset of the data that is already available to you?
 * If not: is there a way of getting all the data you need?
 
 If there is a discrepancy between the data available, and the data required to solve the problem, that discrepancy
 has to be mitigated. If it is not possible to align the data available with what is needed, then this is a cue to
-go back to the drawing board and iterate on the problem specification. Perhaps there are other ways to solve the business
-need than what has been specified so far?
+go back to the drawing board and either iterate on the problem specification, or collect suitable data. 
+Perhaps there are other ways to solve the business or research need than what has been specified so far?
 
 
 ## How do you know if you have succeeded in solving the problem?
@@ -82,12 +82,12 @@ appropriate evaluation data.
 
 Any annotation effort should take into account:
 
-* **The quality of the annotations**. The agreement between the annotators working on the data, i.e., the inter-annotator
- agreement provides a good starting point for assessing the quality of the annotations overall. For example, the reasons 
- for low inter-annotator agreement, i.e., the human annotators do not agree in the general case, can be due to for instance, 
+* **The quality of the annotations**. The agreement between the annotators working on the data, aka the inter-annotator
+ agreement, provides a good starting point for assessing the quality of the annotations overall. The reasons 
+ for low inter-annotator agreement can be related to, e.g., 
  unclear annotation guidelines, difference in expertise among the annotators, that the task is simply too hard, or a 
- combination of all of the above. The annotations produced should be carefully monitored with respect their quality, 
- and deviations in quality of time should be analyzed so as to mitigate a future decrease in the capabilities of the
+ combination of all of the above. The annotations produced should be carefully monitored with respect their quality. 
+ Deviations in quality over time should be analyzed so as to facilitate mitigatation of a potential decrease in the capabilities of the
   model that relies on the annotated data for training. 
 * **Temporal aspects of the characteristics of the data**. How often do the distribution of the data to learn from change, i.e.,
 how often do we need to produce new annotations? When do we know that we need newly annotated data?
