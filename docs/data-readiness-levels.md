@@ -43,4 +43,4 @@ forming of working hypotheses.
 **Band A** concerns the **utility** of data. The utility of the data concerns the way in which the data is intended to be
 used: Is the data enough to solve the task at hand?
 
-A project should strive for data readiness at Band A - Level 1. Note that the Data Readiness Levels should be interpreted with respect to a given task. Data that is at Band A for a Task X might be considered Band B for a Task Y, simply because the requirements on the data are different in the two tasks. For Task A it could be enough if the data is clean and representative of the domain, while for Task Y it could need to be annotated with the appropriate information.
+A project should strive for data readiness at Band A - Level 1. Note that the Data Readiness Levels should be interpreted with respect to a given task. Data that is at Band A for a Task X might be considered Band B for a Task Y, simply because the requirements on the data are different in the two tasks. For Task A it could be enough if the data is clean and representative of the domain, while for Task Y the data could need to be annotated with the appropriate information.
