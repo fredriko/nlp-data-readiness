@@ -15,7 +15,7 @@ not matter what kind of algorithms are available.
 
 ![Data Readiness Levels table](img/drl-table.png)
 
-* **Band C** concerns the **accessibility** of data. All work at this level all serves to grant the team 
+* **Band C** concerns the **accessibility** of data. All work at this level serves to grant the team 
 intended to work with the data access to it. Issues that fall under Band C include:
     - **Does the data exist?** Is the data required to address the task even recorded?
   - **Data conversion and encoding**. One of the major challenges faced within NLP is the conversion of
