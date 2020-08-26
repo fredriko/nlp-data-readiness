@@ -38,4 +38,4 @@ feature comparison matrix of the tools.
 * [Tagtog](https://www.tagtog.net/)
 * [YEDDA](https://github.com/jiesutd/YEDDA)
 
-[Feature comparison of the above text annotation tools](https://docs.google.com/spreadsheets/d/1iKO0PhOhthsjZHGyhmsmYKKOxdmdJxrCJdNYevB3L4A/edit?usp=sharing)
+[Feature comparison of the above text annotation tools](https://docs.google.com/spreadsheets/d/1iKO0PhOhthsjZHGyhmsmYKKOxdmdJxrCJdNYevB3L4A/edit?usp=sharing).
