@@ -103,9 +103,9 @@ book [Building Machine Learning Powered Applications: Going from Idea to Product
 ## How does your organization store new data?
 
 Even if the data processing in your organization is not perfect with respect to the 
-requirements of machine learning, each project you pursue have the opportunity to articulate improvements to your
+requirements of machine learning, each project you pursue has the opportunity to articulate improvements to your
 organization's data storage processes. Ask yourself the questions: How does my organization store incoming data? Is
-that process as good fit for automatic processing of the data in the context of a NLP project, that is, is the
+that process a good fit for automatic processing of the data in the context of an NLP project, that is, is the
 data stored on a format that brings it beyond Band C (**accessibility**) of the Data Readiness Levels? If not; what
 changes would need to be made to make the storage better?
 
