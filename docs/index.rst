@@ -10,5 +10,6 @@ A guide to Data Readiness in Natural Language Processing projects.
     data-readiness-levels
     project-phases
     questions-for-guidance
+    case-studies
     resources
     contribute
