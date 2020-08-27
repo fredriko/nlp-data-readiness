@@ -101,8 +101,41 @@ monitoring the solution's performance for decrease in performance, etc. A good o
 book [Building Machine Learning Powered Applications: Going from Idea to Product](https://mlpowered.com/book/).
 
 
+## How does your organization store new data?
 
- 
+Even if the data processing in your organization is not perfect with respect to the 
+requirements of machine learning, each project you pursue have the opportunity to articulate improvements to your
+organization's data storage processes. Ask yourself the questions: How does my organization store incoming data? Is
+that process as good fit for automatic processing of the data in the context of a NLP project, that is, is the
+data stored on a format that brings it beyond Band C (**accessibility**) of the Data Readiness Levels? If not; what
+changes would need to be made to make the storage better?
 
+A couple of things we have found important over the course of multiple projects are related to the format in which
+the data is stored. In particular:
+
+* **Information in the data should not be removed prior to storing it**. Destructive processing, such as tokenization, 
+stemming, and downcasing
+of text should not be carried out as a part of the data storing process. Do not conflate the intended usage of the data
+for a particular use case with the storage format; make as few assumptions about how the data will be used in the 
+future as possible.
+* **Avoid proprietary formats, and formats not intended for automatic processing**. Document formats output by regular 
+word processing software, for instance PDF, Word, and Pages, are *not* appropriate formats for input to automatic, machine learning-based
+processing of information. The challenges of converting, e.g., a PDF file to a textual format suitable for use in a processing
+pipeline are many. There are currently no general and stable programmatic solution for avoiding:
+  - the omission of information, e.g., erroneously broken up words; 
+  - the introduction of superfluous information, e.g., insertion of page headers as part of the text;
+  - character encoding issues;
+  - the dispersion of information from tables into running text, or; 
+  - the mix up of the order of paragraphs or columns.
+* **Logical structure**. If possible, make sure the logical structure of a document is made accessible upon retrieval. 
+That is, ensure that relevant parts of a document are possible to refer to by their function, enabling document
+segmentation queries such as:
+  - Give me the table of contents of this document.
+  - List, in order, all top level subsections and their textual contents from Chapter 3 in this book.
+  - Extract all tables from this yearly report.
+
+
+Failing to address the above issues may result in your data never making it past Data Readiness Level Band C, and
+thus not be appropriate for automatic analysis.
 
 
