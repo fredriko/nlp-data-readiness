@@ -117,6 +117,7 @@ stemming, and downcasing
 of text should not be carried out as a part of the data storing process. Do not conflate the intended usage of the data
 for a particular use case with the storage format; make as few assumptions about how the data will be used in the 
 future as possible.
+
 * **Avoid proprietary formats, and formats not intended for automatic processing**. Document formats output by regular 
 word processing software, for instance PDF, Word, and Pages, are *not* appropriate formats for input to automatic, machine learning-based
 processing of information. The challenges of converting, e.g., a PDF file to a textual format suitable for use in a processing
@@ -124,8 +125,9 @@ pipeline are many. There are currently no general and stable programmatic soluti
   - the omission of information, e.g., erroneously broken up words; 
   - the introduction of superfluous information, e.g., insertion of page headers as part of the text;
   - character encoding issues;
-  - the dispersion of information from tables into running text, or; 
-  - the mix up of the order of paragraphs or columns.
+  - the dispersion of information from tables into running text; 
+  - the mix up of the order of paragraphs or columns, or;
+  - a number of additional challenges, as described in [What's so hard about PDF text extraction?](https://filingdb.com/b/pdf-text-extraction)
 * **Logical structure**. If possible, make sure the logical structure of a document is made accessible upon retrieval. 
 That is, ensure that relevant parts of a document are possible to refer to by their function, enabling document
 segmentation queries such as:
