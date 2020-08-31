@@ -1,4 +1,4 @@
-# Project structure and management
+# Project phases
 
 To put the need for training, validation, and evaluation data into context, let's have a look at the structure of a
 typical NLP project.
