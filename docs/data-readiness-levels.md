@@ -8,7 +8,7 @@ exchanging information with stakeholders regarding data **accessibility**, **val
 
 The table below illustrates the three different major Bands of the DRLs. Each band can be thought of as consisting of multiple
 levels. At the lowest level, i.e., Band C - Level 4, someone has heard that there is data to be had. This "hearsay" level is
-often where a new project starts --- someone knows that there should be data available to work with. Since the access
+often where a new project starts — someone knows that there should be data available to work with. Since the access
 to data often dictates the bounds of possible analysis, and thus the level of results attainable, walking a new project
 or stakeholder through the DRLs is not only a nice-to-have, it is a must-do. If there is no data to work with, it does
 not matter what kind of algorithms are available.
