@@ -25,3 +25,7 @@ please email the author (**fredrik.olsson AT-SIGN ri.se**) or submit a pull requ
 
 General step-by-step instructions for how to contribute to create a pull request is descibed by, e.g, 
 [Step-by-step guide to contributing on GitHub](https://www.dataschool.io/how-to-contribute-on-github/).
+
+## How to cite 
+
+Coming soon!

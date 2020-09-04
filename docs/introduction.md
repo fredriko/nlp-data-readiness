@@ -1,12 +1,12 @@
 # Introduction
 
-At [the Research Institutes of Sweden (RISE)](https://ri.se), we work in cooperation with other organizations and 
-companies, both in the public and private sectors, with research and innovation in Natural Language Processing (NLP).  
+At [the Research Institutes of Sweden (RISE)](https://ri.se), we work in cooperation with other organizations and
+companies, both in the public and private sectors, with research and innovation in Natural Language Processing (NLP). 
 A major challenge that we often encounter is a lack of readiness with respect to data. Even if the research problem 
-is sufficiently well defined, and the business value of the proposed solution is well described, it is often not 
+is sufficiently well defined, and the business value of the proposed solution is well described, it is often not
 clear what type of data is required, if it is available, or if it at all exists. We find that there is often not 
 even a framework available to discuss issues related to data. The purpose of this document is to outline and 
-highlight issues related to data accessibility, validity, and utility that may arise in such situations. 
+highlight issues related to data accessibility, validity, and utility that may arise in such situations.
 We hope that this document may serve as a guide for working practically with data in the context of applied NLP.
 
 
