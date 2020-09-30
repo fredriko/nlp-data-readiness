@@ -47,9 +47,8 @@ used: Is the data enough to solve the task at hand?
 
 
 A project should strive for data readiness at Band A - Level 1. Note that the Data Readiness Levels should be 
-interpreted with respect to a given task. while for Task Y the data could need to be annotated with the appropriate 
-information. As an example, data that is at Band A for the task of pre-training a language model might be considered 
+interpreted with respect to a given task. As an example, data that is at Band A for the task of pre-training a language model might be considered 
 Band B for the task of training a Named Entity Recognizer, simply because the requirements on the data are different 
-in the two tasks. For training a language model, if could be enough if the data is unlabelled, clean and drawn from 
+in the two tasks. For training a language model, it could be enough if the data is unlabelled, clean and drawn from 
 domains of general interest, while for the Named Entity Recognizer, the data will need to be annotated with the 
 appropriate information, and taken from the very specific domain in which the recognizer will then operate.

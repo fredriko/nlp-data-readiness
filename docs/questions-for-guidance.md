@@ -91,6 +91,12 @@ how often do we need to produce new annotations? When do we know that we need ne
 * **Representativity of the data**. Is the data annotated really suitable for the task at hand? Does it reflect the way
 users interact with the system?
 
+Apart from the more quantitative approach to evaluation facilitated by the use of annotated test data, the qualitative 
+aspects of evaluation should also be considered. Qualitative evaluation can take on the form of user acceptance tests, 
+and surveys for identifying, e.g., nonsensical output from a model, or to get a read on the reduction of cognitive load 
+that a user of a system experiences. Furthermore, qualitative evaluation might help identifying issues with missing 
+data that, if it present, would help increase the performance of the model.
+
 Obtaining the training, evaluation, and validation data is at the core of producing a machine learning-based solution to
 a problem. The quality of the data sets the upper bound to what can be achieved by the learned functionality. Also included
 in the production process are issues such as model selection, setting up infrastructure for machine learning, continuously

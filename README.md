@@ -14,7 +14,7 @@ data to facilitate automated analysis methods (machine learning, natural languag
 
 * Click [here](https://nlp-data-readiness.readthedocs.io/en/latest/) for the latest working version at Read the Docs.
 * Click [here](docs/README.md) for the latest working version at GitHub.
-* Click [here](NLP_Data_Readiness.pdf) for a PDF version of the document (September 4, 2020).
+* Click [here](https://arxiv.org/abs/2009.02043) for the arXiv (PDF) version of the document (September 4, 2020, revised September 30, 2020).
 
 
 ## How to contribute
