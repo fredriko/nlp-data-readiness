@@ -28,4 +28,13 @@ General step-by-step instructions for how to contribute to create a pull request
 
 ## How to cite 
 
-Coming soon!
+BibTex:
+
+```
+@article{olsson2020data,
+  title={Data Readiness for Natural Language Processing},
+  author={Olsson, Fredrik and Sahlgren, Magnus},
+  journal={arXiv preprint arXiv:2009.02043},
+  year={2020}
+}
+```
