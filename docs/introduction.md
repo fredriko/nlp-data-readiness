@@ -9,6 +9,11 @@ even a framework available to discuss issues related to data. The purpose of thi
 highlight issues related to data accessibility, validity, and utility that may arise in such situations.
 We hope that this document may serve as a guide for working practically with data in the context of applied NLP.
 
+The contents of this document has been published on the form of two pre-prints:
+
+* [Data Readiness for Natural Language Processing](https://arxiv.org/abs/2009.02043), Olsson & Sahlgren, 2020.
+* [We Need to Talk About Data: The Importance of Data Readiness in Natural Language Processing](https://arxiv.org/abs/2110.05464), Olsson & Sahlgren, 2021.
+
 
 ## Scope
 

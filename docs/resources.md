@@ -4,6 +4,9 @@ Below are a number of resources related to data readiness and NLP.
 
 ## Data readiness
 
+* [Data Readiness for Natural Language Processing](https://arxiv.org/abs/2009.02043), pre-print by Olsson & Sahlgren (2020).
+* [We Need to Talk About Data: The Importance of Data Readiness in Natural Language Processing](https://arxiv.org/abs/2110.05464), pre-print by Olsson & Sahlgren (2021).
+* [draviz](https://github.com/fredriko/draviz), a tool for visualizing the data readiness for NLP Projects.
 * [Data Readiness](http://data-readiness.org/)
 * [Data Readiness Levels](https://arxiv.org/abs/1705.02245), white paper by Neil Lawrence (2017)
 * [FAIR](https://www.go-fair.org/fair-principles/), guidelines to improve the Findability, Accessibility, Interoperability, and Reuse of digital assets.
